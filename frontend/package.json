@@ -10,11 +10,12 @@
     "axios": "^0.26.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "^0.9.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "dev":"concurrently 'npm start' 'cd .. && cd Backend && npm start' ",
+    "dev": "concurrently 'npm start' 'cd .. && cd Backend && npm start' ",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
